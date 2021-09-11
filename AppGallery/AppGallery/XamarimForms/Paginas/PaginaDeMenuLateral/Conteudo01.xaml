@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppGallery.XamarimForms.Paginas.PaginaDeMenuLateral.Conteudo01"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Página 01">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="Página 01"
+                VerticalOptions="CenterAndExpand" />
+
+            <Button Clicked="AbrirMenu_Clicked" Text="Abrir Menu" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

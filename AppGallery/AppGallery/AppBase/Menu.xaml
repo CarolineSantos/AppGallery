@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage
+    x:Class="AppGallery.XamarimForms.AppBase.Menu"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppGallery.XamarimForms.AppBase">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Label Text="Páginas" />
+                <Button BackgroundColor="Transparent" Clicked="ContentPage_Click" Text="Content Page" />
+                <Button BackgroundColor="Transparent" Clicked="NavigationPage_Click" Text="Navigation Page" />
+                <Button BackgroundColor="Transparent" Clicked="TabbedPage_Click" Text="Tabbed Page" />
+                <Button BackgroundColor="Transparent" Clicked="CarroselPage_Click" Text="Carrosel Page" />
+                <Button BackgroundColor="Transparent" Clicked="MasterDetailPage_Click" Text="Master Detail Page" />
+                <Button BackgroundColor="Transparent" Clicked="ModalPage_Click" Text="Modal Page" />
+
+                <Label Text="Leiautes" />
+                <Button BackgroundColor="Transparent" Clicked="StackLaiaute_Click" Text="Stack Leiaute" />
+                <Button BackgroundColor="Transparent" Clicked="GridLeiaute_Click" Text="Grid Leiaute" />
+                <Button BackgroundColor="Transparent" Clicked="AbsoluteLeiaute_Click" Text="Absolute Leiaute" />
+                <Button BackgroundColor="Transparent" Clicked="RelativeLeiaute_Clicked" Text="Relaitve Leiaute" />
+                <Button BackgroundColor="Transparent" Clicked="FlexLeiaute_Clicked" Text="Flex Leiaute" />
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:Inicio />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

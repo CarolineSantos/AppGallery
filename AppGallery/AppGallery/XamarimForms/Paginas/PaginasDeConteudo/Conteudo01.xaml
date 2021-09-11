@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppGallery.XamarimForms.Paginas.PaginasDeConteudo.Conteudo01"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Margin="10,20"
+                Padding="20"
+                BackgroundColor="LightGray"
+                HorizontalOptions="Center"
+                Text="Página de Conteúdo (ContentPage)" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
